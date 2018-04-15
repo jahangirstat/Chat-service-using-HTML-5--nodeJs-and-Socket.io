@@ -1,0 +1,30 @@
+G:\Home Practice\roomchatservice\chatroomservice\bin\chatroomservice.dll.config
+G:\Home Practice\roomchatservice\chatroomservice\bin\chatroomservice.dll
+G:\Home Practice\roomchatservice\chatroomservice\bin\chatroomservice.pdb
+G:\Home Practice\roomchatservice\chatroomservice\obj\Debug\chatroomservice.csprojResolveAssemblyReference.cache
+G:\Home Practice\roomchatservice\chatroomservice\obj\Debug\chatroomservice.dll
+G:\Home Practice\roomchatservice\chatroomservice\obj\Debug\chatroomservice.pdb
+C:\Users\Lab3_11\Documents\roomchatservice\chatroomservice\bin\chatroomservice.dll.config
+C:\Users\Lab3_11\Documents\roomchatservice\chatroomservice\bin\chatroomservice.dll
+C:\Users\Lab3_11\Documents\roomchatservice\chatroomservice\bin\chatroomservice.pdb
+C:\Users\Lab3_11\Documents\roomchatservice\chatroomservice\obj\Debug\chatroomservice.csprojResolveAssemblyReference.cache
+C:\Users\Lab3_11\Documents\roomchatservice\chatroomservice\obj\Debug\chatroomservice.dll
+C:\Users\Lab3_11\Documents\roomchatservice\chatroomservice\obj\Debug\chatroomservice.pdb
+H:\roomchatservice\chatroomservice\bin\chatroomservice.dll.config
+H:\roomchatservice\chatroomservice\bin\chatroomservice.dll
+H:\roomchatservice\chatroomservice\bin\chatroomservice.pdb
+H:\roomchatservice\chatroomservice\obj\Debug\chatroomservice.csprojResolveAssemblyReference.cache
+H:\roomchatservice\chatroomservice\obj\Debug\chatroomservice.dll
+H:\roomchatservice\chatroomservice\obj\Debug\chatroomservice.pdb
+G:\roomchatservice\chatroomservice\bin\chatroomservice.dll.config
+G:\roomchatservice\chatroomservice\bin\chatroomservice.dll
+G:\roomchatservice\chatroomservice\bin\chatroomservice.pdb
+G:\roomchatservice\chatroomservice\obj\Debug\chatroomservice.csprojResolveAssemblyReference.cache
+G:\roomchatservice\chatroomservice\obj\Debug\chatroomservice.dll
+G:\roomchatservice\chatroomservice\obj\Debug\chatroomservice.pdb
+G:\Md Jahangir Alam_1231209\roomchatservice\chatroomservice\bin\chatroomservice.dll.config
+G:\Md Jahangir Alam_1231209\roomchatservice\chatroomservice\bin\chatroomservice.dll
+G:\Md Jahangir Alam_1231209\roomchatservice\chatroomservice\bin\chatroomservice.pdb
+G:\Md Jahangir Alam_1231209\roomchatservice\chatroomservice\obj\Debug\chatroomservice.csprojResolveAssemblyReference.cache
+G:\Md Jahangir Alam_1231209\roomchatservice\chatroomservice\obj\Debug\chatroomservice.dll
+G:\Md Jahangir Alam_1231209\roomchatservice\chatroomservice\obj\Debug\chatroomservice.pdb

@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Room Chat Service</title>
+    <script src="Scripts/socket.io.js"></script>
+    <script src="Scripts/jquery-3.2.1.js"></script>
+    <script src="Scripts/chatScript.js"></script>
+    <link href="Styles/homeformpage.css" rel="stylesheet" />
+    <link href="Styles/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="template">
+        <div id="topHead">
+            <div id="topContainer">
+                <div id="logo">
+                    <img class="imgLogo" src="Images/download1.gif" />
+                </div>
+                <header id="title">
+                    <div id="chatTitle">
+                    <h1>Chat Service</h1>
+                    <h2>Chat with connected One</h2>
+                    </div>
+                    <button id="fadeto">log In</button>
+                </header>
+            </div>
+        </div>
+        <div id="logo1" style="display:none">
+            <img class="imgLogo1" src="Images/chatservice.jpg" />
+        </div>
+        <div id="main">
+            <div id="connectedOption">
+                <div id="userInput" style="display:none;">
+                    <div id="loginuserNameTxt">
+                        <label class="labelClass" for="txt">User Name:  </label>
+                        <input type="text" id="txt" name="txt" maxlength="6" /><br />
+                        <span class="errorUserEntry" style="display:none;">User name can't be empty..</span>
+                    </div>
+                    <div id="roomContainer">
+                        <label>Select Room: *</label>
+                        <input type="radio" value="Green Room" name="room" id="r1" checked /><label for="r1">Green Room</label>
+                        <input type="radio" value="Red Room" name="room" id="r2" /><label for="r2">Red Room</label>
+                        <input type="radio" value="Blue Room" name="room" id="r3" /><label for="r3">Blue Room</label>
+                    </div>
+                    <input type="button" id="btnConnectUser" value="Log In" />
+                    <input type="button" id="btncancel" value="Cancel" />
+                </div>
+            </div>
+            <div id="chatContainer" style="display:none">
+                <div id="top">
+                    <div id="left">
+                        <input type="button" id="disconnect" value="Disconnect Me" />
+                        <h3>User Online</h3>
+                        <ul id="uselist"></ul>
+                    </div>
+                    <div id="right">
+
+                        <div id="rightMsz">
+                            <div id="mszHolder">
+                                <ul id="msg"></ul>
+                            </div>
+                            <div id="messageBox">
+                                <textarea id="txt1" name="txt1" placeholder="Message....."></textarea>
+                                <input type="button" id="send" value="Send" />
+                                <input type="file" id="btnImageFile" name="btnImageFile" />
+                            </div>
+                        </div>
+                        <div id="rightMszLeft">
+                            <h2>Your Profile</h2>
+                            <div id="profileSpace">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="buttom">
+                    <img class="imgbottom" src="Images/bottomchatpageimage.jpg" alt="Photos" />
+                </div>
+            </div>
+            <div id="tipsTricks">
+                <div id="tipsHead">
+                    <h2>Tips and Tricks</h2>
+                    <p>How to get a reply faster & chat your connected room's connected client</p>
+                </div>
+                <div id="tipsDetails">
+                    <div id="tipsDetails1">
+                        <div id="tipsImage1">
+                            <img class="imgTips" src="Images/tips11.png" />
+                        </div>
+                        <div id="tipsContent1">
+                            <h2>Tips of you...</h2>
+                            <p>
+                                Choosing the correct user name or email address when you join a chat it will save time and help
+                                you to live chat with your connecte room's connected one client and you get the appropriate node to chat faster.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="tipsDetails2">
+                        <div id="tipsImage2">
+                            <img class="imgTips" src="Images/tips22.png" />
+                        </div>
+                        <div id="tipsContent2">
+                            <h2>Tips of you...</h2>
+                            <p>
+                                When starting a live chat session, please use correct associated attechment that. This will help speed up our instence chat and get reply back your connected client which room you are connected.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="robotSofia">
+                <div id="sofiaDetails">
+                    <div id="sofia">
+                        <img id="imgSofia" src="Images/tips3.png" height="150" alt="sofia Photo" />
+                    </div>
+                    <div id="sofiaInfo" >
+                        <h2>Sophia (ROBOT)</h2>
+                        <h4>Capabilities</h4>
+                        <p>
+                            Sophia is conceptually similar to the computer program ELIZA, which was one of the first attempts 
+                            at simulating a human conversation.The software has been programmed to give pre-written responses 
+                            to specific questions or phrases, like a chatbot. These responses are used to create the illusion
+                             that the robot is able to understand conversation, including stock answers to questions like "Is 
+                            the door open or shut?" The information is shared in a cloud network which allows input and 
+                            responses to be analysed with blockchain technology.The robot's range of facial expressions are 
+                            facilitated by its artificial "frubber" skin, which is mechanically manipulated.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="none"></div>
+        <footer>
+            <address>
+                <p>Copyright &copy; 2017 : Chat Service Online.</p>
+                <span>ChatService@online</span>
+            </address>
+        </footer>
+    </div>
+
+</body>
+</html>
